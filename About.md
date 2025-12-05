@@ -11,6 +11,9 @@ Next, it has some good tools, they are useful.
 Finally, I really can't think of anything else to say.
 # When can I finish
 Becase of the school work, I can't say exactly when it's done. (Sorry)
+
+# Developer
+[**BearThomas**](https://github.com/BearThomas) (the Initiator)
 # How to support me
 Concern is the best support to me.
 # How to use it
