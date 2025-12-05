@@ -1,14 +1,22 @@
 # sms.en.py
 
 # language English
-
-from PyQt5 import QtCore
-from PyQt5.QtCore import QCoreApplication, QTimer, Qt, QRectF
-from PyQt5.QtWidgets import QWidget, QApplication, QDesktopWidget, QListWidget, QGridLayout, QPushButton, QVBoxLayout, QLabel, QFrame, QLineEdit, QHBoxLayout, QDialog, QMessageBox, QLineEdit
-from PyQt5.QtGui import QPainter, QPainterPath, QRegion, QColor, QPalette
 import sys
 import LibC
 import os
+try:
+    from PyQt5 import QtCore
+    from PyQt5.QtCore import QCoreApplication, QTimer, Qt, QRectF
+    from PyQt5.QtWidgets import QWidget, QApplication, QDesktopWidget, QListWidget, QGridLayout, QPushButton, QVBoxLayout, QLabel, QFrame, QLineEdit, QHBoxLayout, QDialog, QMessageBox, QLineEdit
+    from PyQt5.QtGui import QPainter, QPainterPath, QRegion, QColor, QPalette
+except:
+    os.system("pip install -i https://mirrors.tuna.tsinghua.edu.cn/pypi/web/simple pyqt5")
+    from PyQt5 import QtCore
+    from PyQt5.QtCore import QCoreApplication, QTimer, Qt, QRectF
+    from PyQt5.QtWidgets import QWidget, QApplication, QDesktopWidget, QListWidget, QGridLayout, QPushButton, QVBoxLayout, QLabel, QFrame, QLineEdit, QHBoxLayout, QDialog, QMessageBox, QLineEdit
+    from PyQt5.QtGui import QPainter, QPainterPath, QRegion, QColor, QPalette
+
+# pip install -i https://mirrors.tuna.tsinghua.edu.cn/pypi/web/simple pyt5
 
 print(os.getcwd())
 
